@@ -124,7 +124,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 019b4a09df3335c49b4b65c19ed0174f, type: 2}
   - {fileID: 11400000, guid: 639c26f05bee9d646b8a5bb87262a590, type: 2}
   - {fileID: 11400000, guid: 065412caa38ca0f4d9fa4bbb61abf7dd, type: 2}
-  preview: {fileID: 3184107347144807622, guid: 2e04c49eb92f05348b274a4d675c976f, type: 3}
+  buildCategories:
+  - Name: Generators
+    options:
+    - {fileID: 11400000, guid: 065412caa38ca0f4d9fa4bbb61abf7dd, type: 2}
+    - {fileID: 11400000, guid: 639c26f05bee9d646b8a5bb87262a590, type: 2}
+  - Name: Barricades
+    options:
+    - {fileID: 11400000, guid: 1d6fbde93f52a23449a5ea5dfa971ee8, type: 2}
+    - {fileID: 11400000, guid: 15d5def473f3d5243bc1aa40ccf8e5fb, type: 2}
+    - {fileID: 11400000, guid: 250eae8c324ac2a41a47a707de945f13, type: 2}
+    - {fileID: 11400000, guid: 019b4a09df3335c49b4b65c19ed0174f, type: 2}
 --- !u!114 &7441784905323874716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,7 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _componentIndexCache: 255
-  _addedNetworkObject: {fileID: 0}
+  _addedNetworkObject: {fileID: 8375797972201943962}
   _networkObjectCache: {fileID: 0}
 --- !u!1 &3443772072779150403
 GameObject:

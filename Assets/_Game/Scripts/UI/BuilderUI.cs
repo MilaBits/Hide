@@ -9,6 +9,6 @@ public class BuilderUI : MonoBehaviour
 
     public void Init(List<BuildOption> options)
     {
-        options.ForEach(option => Instantiate(buildOptionUI, optionContainer).Init(option));
+        options.ForEach(option => Instantiate(buildOptionUI, optionContainer).SetOption(option));
     }
 }

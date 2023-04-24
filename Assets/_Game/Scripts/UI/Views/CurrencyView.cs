@@ -4,11 +4,8 @@ using UnityEngine.UI;
 
 public sealed class CurrencyView : View
 {
-    [SerializeField]
-    private RectTransform container;
-
-    [SerializeField]
-    private CurrencyElement currencyElementPrefab;
+    [SerializeField] private RectTransform container;
+    [SerializeField] private CurrencyElement currencyElementPrefab;
 
     private List<CurrencyElement> currencyElements = new List<CurrencyElement>();
 
