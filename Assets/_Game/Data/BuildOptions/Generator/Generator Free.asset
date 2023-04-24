@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d27b9f7a2289d40ba7808343d854d6, type: 3}
+  m_Name: Generator Free
+  m_EditorClassIdentifier: 
+  Name: Generator
+  structurePrefab: {fileID: 5739400548464643794, guid: 3b22b21523f058249b4047664fd309cb, type: 3}
+  currency: {fileID: 11400000, guid: 338a4b21e1b697d44904e896cae9e5a3, type: 2}
+  icon: {fileID: 21300000, guid: 5aeace1ddd6992f4e9471e5ab7f3e63c, type: 3}
+  tier: 3
+  Size: {x: 2, y: 2}
+  cost: 0
+  binding:
+    m_Name: Binding
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 52f56d16-c182-4c67-8225-ddcb1d872d64
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
